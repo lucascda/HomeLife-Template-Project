@@ -1,22 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
 body {
-  width: 1400px;
   font-family: "Montserrat";
-  margin-top: 31px;
-  margin-left: 180px;
-  margin-right: 180px;
+  background-color: #f5f8f1;
 }
 
 header {
-  width: 1100px;
-}
-header .main-nav {
-  height: 56px;
+  width: 1200px;
+  margin: 31px 145px 0px 145px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 header .main-nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 14px;
   font-weight: 500;
 }
@@ -29,26 +33,80 @@ header .main-nav a:hover {
 }
 header .main-nav li {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 header .main-nav .main-nav-phone {
   font-weight: 600;
   color: #9bb968;
   font-size: 19.97px;
   letter-spacing: 1.19px;
+  margin-right: 43px;
 }
 header .main-nav .request-call-button {
   width: 228px;
   height: 48px;
   padding: 13px 45px;
   border: 1px solid #9bb968;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: #191816;
   text-decoration: none;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #f5f8f1;
+  letter-spacing: 1.2px;
+}
+header .side-nav {
+  height: 250px;
+  margin: 133px 0 0 100px;
+}
+header .side-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 15px;
+  height: 250px;
+}
+header .side-nav li {
+  list-style: none;
+  text-align: center;
+}
+header .side-nav .side-nav-item {
+  width: 1px;
+  height: 32px;
+  margin-bottom: 10px;
+  background-color: #9bb968;
+}
+header .side-nav .side-nav-index {
+  margin: 18.5px 0;
+  color: #9bb968;
+  font-size: 12px;
+  font-weight: 600;
+}
+header .header-hero-phrase {
+  font-weight: 600;
+  margin-top: 160px;
+}
+header .header-hero-phrase p {
+  font-size: 48px;
+  margin-bottom: 33.6px;
+  letter-spacing: 0.96px;
+}
+header .header-hero-phrase p .yellow-hightlight {
+  background-color: #edce47;
+}
+header .header-hero-phrase .header-hero-cta {
+  width: 186px;
+  height: 54px;
+  font-size: 16px;
   letter-spacing: 1.6px;
+  background-color: #edce47;
+  font-weight: 600;
+  border: none;
+}
+header .header-hero-img-container {
+  margin-top: 86px;
+  margin-left: 124px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28.002"
+            height="8.716"
+            viewBox="0 0 28.002 8.716"
+          >
+            <g id="arr" transform="translate(-841.998 -1005.026)">
+              <path
+                id="Caminho_20"
+                data-name="Caminho 20"
+                d="M865.3,1006.192l3.478,3.172-3.465,3.211"
+                fill="none"
+                stroke="#030504"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="1.651"
+              />
+              <line
+                id="Linha_9"
+                data-name="Linha 9"
+                x2="25.939"
+                transform="translate(842.841 1009.365)"
+                fill="none"
+                stroke="#030504"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="1.686"
+              />
+            </g>
+          </svg>
