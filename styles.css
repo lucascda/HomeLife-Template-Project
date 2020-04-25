@@ -109,6 +109,9 @@ header .header-hero-img-container {
   margin-left: 124px;
 }
 
+.big-phrase-container {
+  height: 230px;
+}
 .big-phrase-container .shadow {
   opacity: 1;
 }
@@ -121,8 +124,8 @@ header .header-hero-img-container {
   left: -30px;
 }
 .big-phrase-container .wave {
-  position: relative;
-  top: -480px;
+  position: absolute;
+  top: 705px;
 }
 .big-phrase-container .glow {
   width: 1400px;
@@ -131,6 +134,53 @@ header .header-hero-img-container {
   position: absolute;
   top: 500px;
   opacity: 0.1;
+}
+
+.main-container {
+  background-color: #ffffff;
+  width: 1400px;
+}
+
+.benefits-section {
+  width: 1250px;
+  margin-left: 166px;
+  margin-right: 166px;
+  margin-bottom: 32px;
+}
+.benefits-section .section-number {
+  text-align: center;
+  font-size: 120px;
+  font-weight: 800;
+  position: relative;
+  top: 90px;
+  color: #f5f8f1;
+  z-index: 1;
+}
+.benefits-section h2 {
+  margin-bottom: 70px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+.benefits-section .benefits-section-cards {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.benefits-section .benefits-section-cards .card-item {
+  margin-right: 100px;
+}
+.benefits-section .benefits-section-cards .card-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+.benefits-section .benefits-section-cards .card-description {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

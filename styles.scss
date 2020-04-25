@@ -97,7 +97,7 @@ header {
     p {
       font-size: 48px;
       margin-bottom: 33.6px;
-      // line-height: 52pt;
+
       letter-spacing: 0.96px;
 
       .yellow-hightlight {
@@ -120,6 +120,8 @@ header {
   }
 }
 .big-phrase-container {
+  height: 230px;
+
   .shadow {
     opacity: 1;
   }
@@ -132,8 +134,8 @@ header {
     left: -30px;
   }
   .wave {
-    position: relative;
-    top: -480px;
+    position: absolute;
+    top: 705px;
   }
   .glow {
     width: 1400px;
@@ -142,5 +144,51 @@ header {
     position: absolute;
     top: 500px;
     opacity: 0.1;
+  }
+}
+
+.main-container {
+  background-color: #ffffff;
+  width: 1400px;
+}
+.benefits-section {
+  width: 1250px;
+  margin-left: 166px;
+  margin-right: 166px;
+  margin-bottom: 32px;
+  .section-number {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 800;
+    position: relative;
+    top: 90px;
+    color: #f5f8f1;
+    z-index: 1;
+  }
+  h2 {
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 600; //semi bold
+    position: relative;
+    z-index: 2;
+  }
+  .benefits-section-cards {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    .card-item {
+      margin-right: 100px;
+    }
+    .card-title {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 800; // extra bold
+      text-align: center;
+    }
+    .card-description {
+      font-size: 14px;
+      font-weight: 400; // regular
+      text-align: center;
+    }
   }
 }
