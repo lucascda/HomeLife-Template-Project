@@ -140,14 +140,74 @@ header .header-hero-img-container {
   background-color: #ffffff;
   width: 1400px;
 }
-
-.benefits-section {
+.main-container .section-divider {
+  width: 1px;
+  height: 64px;
+  display: inline-block;
+  background-color: #9bb968;
+  position: relative;
+  left: 625px;
+  top: 52px;
+  margin-top: 40px;
+}
+.main-container .benefits-section {
   width: 1250px;
   margin-left: 166px;
   margin-right: 166px;
   margin-bottom: 32px;
 }
-.benefits-section .section-number {
+.main-container .services-section {
+  width: 1250px;
+  margin-left: 166px;
+  margin-right: 166px;
+  margin-bottom: 32px;
+}
+.main-container .services-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  list-style: none;
+}
+.main-container .services-container .service-item {
+  width: 278px;
+  height: 320px;
+}
+.main-container .services-container .service-text {
+  background-color: #f5f8f1;
+}
+.main-container .services-container .service-title {
+  margin-top: 25px;
+  margin-right: 28px;
+  margin-bottom: 16.5px;
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.main-container .services-container .service-description {
+  margin-right: 28px;
+  margin-left: 40px;
+  margin-bottom: 19px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.96pt;
+}
+.main-container .services-container .service-details {
+  margin-right: 28px;
+  margin-left: 40px;
+  color: #0f0a00;
+  font-weight: 700;
+  font-size: 14px;
+}
+.main-container .services-container .content-divider {
+  width: 64px;
+  height: 1px;
+  margin-left: 40px;
+  margin-bottom: 18px;
+  background-color: #9bb968;
+  display: inline-block;
+}
+.main-container .section-number {
   text-align: center;
   font-size: 120px;
   font-weight: 800;
@@ -156,28 +216,28 @@ header .header-hero-img-container {
   color: #f5f8f1;
   z-index: 1;
 }
-.benefits-section h2 {
+.main-container h2 {
   margin-bottom: 70px;
   text-align: center;
   font-weight: 600;
   position: relative;
   z-index: 2;
 }
-.benefits-section .benefits-section-cards {
+.main-container .benefits-section-cards {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-.benefits-section .benefits-section-cards .card-item {
+.main-container .benefits-section-cards .card-item {
   margin-right: 100px;
 }
-.benefits-section .benefits-section-cards .card-title {
+.main-container .benefits-section-cards .card-title {
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 800;
   text-align: center;
 }
-.benefits-section .benefits-section-cards .card-description {
+.main-container .benefits-section-cards .card-description {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
