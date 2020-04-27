@@ -187,6 +187,12 @@ header {
       width: 278px;
       height: 320px;
     }
+    .service-img {
+      background-image: url("./assets/Layer12.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
     .service-text {
       background-color: #f5f8f1;
       //50px 28px 44px 40px;
@@ -223,6 +229,7 @@ header {
       display: inline-block;
     }
   }
+
   .section-number {
     text-align: center;
     font-size: 120px;
@@ -243,6 +250,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style: none;
+
     .card-item {
       margin-right: 100px;
     }

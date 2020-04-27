@@ -173,6 +173,12 @@ header .header-hero-img-container {
   width: 278px;
   height: 320px;
 }
+.main-container .services-container .service-img {
+  background-image: url("./assets/Layer12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .main-container .services-container .service-text {
   background-color: #f5f8f1;
 }
